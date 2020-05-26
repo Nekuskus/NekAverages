@@ -2,6 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>License.md</PackageLicenseFile>
+    <Description>Licensed under the BSD-3-Clause-Clear license.</Description>
+    <Authors>Nekuskus</Authors>
+    <Company>Nekuskus</Company>
+    <Version>1.0.0</Version>
+    <UserSecretsId>729713f2-ae2e-454d-bb24-0543abd8506b</UserSecretsId>
+    <Copyright>Nekuskus</Copyright>
+    <RepositoryType>Library</RepositoryType>
+    <RepositoryUrl>https://github.com/Nekuskus/NekAverages/</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="License.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+	<ItemGroup>
+	  <Content Include="README.md">
+		<Pack>true</Pack>
+		<PackagePath>\</PackagePath>
+	  </Content>
+	</ItemGroup>
 
 </Project>
